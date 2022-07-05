@@ -183,11 +183,6 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-def test():
-    
-    df['day_of_week'] = df['Start Time'].dt.day_name()
-    print(df['day_of_week'])    
-
 #Perform data query
 def main():
     while True:
